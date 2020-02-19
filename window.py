@@ -9,12 +9,16 @@ def main():
     e.init_pygame()
 
     b = Background2(0, 0, 0)
+    p = Player(2, 350, 332)
 
-    p = Player(2, 350, 300)
     e.drawables.add(b)
     e.drawables.add(p)
+
+    pygame.time.set_timer(pygame.USEREVENT + 1, 100 // league.Settings.gameTimeFactor)
     e.key_events[pygame.K_a] = p.move_left
     e.key_events[pygame.K_d] = p.move_right
+    e.key_events[pygame.K_SPACE] = p.jump
+    e.events[pygame.USEREVENT + 1] = p.update
     e.events[pygame.QUIT] = e.stop
     e.run()
 

@@ -10,6 +10,7 @@ class Background2(Character):
         self.x = x
         self.y = y
         self.image = pygame.image.load('./assets/Background2.png').convert_alpha()
+        self.image = pygame.transform.scale(self.image, (729, 400))
 
         self.rect = self.image.get_rect()
         self.world_size = (Settings.width, Settings.height)

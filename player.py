@@ -9,8 +9,10 @@ class Player(Character):
         self.delta = 512
         self.x = x
         self.y = y
+        self.change_x = 0
+        self.change_y = 0
         self.image = pygame.image.load('./assets/porcupine.png').convert_alpha()
-        self.image = pygame.transform.scale(self.image, (64, 64))
+        self.image = pygame.transform.scale(self.image, (32, 32))
         self.rect = self.image.get_rect()
         self.world_size = (Settings.width, Settings.height)
 
@@ -38,18 +40,22 @@ class Player(Character):
         except:
             pass
 
+    def jump(self, time):
+        if self.rect.y + self.rect.height >= 332:
+            self.change_y = -5
+
     def update(self, time):
+        self.gravity_calc()
         self.rect.x = self.x
-        self.rect.y = self.y
-        self.gravityCalc()
-"""
+        self.rect.y += self.change_y
+
     def gravity_calc(self):
-        if self.y == 0:
-            self.y = 1
+        if self.change_y == 0:
+            self.change_y = 1
         else:
-            self.y += .35
+            self.change_y += .35
             
-        if self.rect.y >= SCREEN_HEIGHT - self.rect.height and self.y >= 0:
-            self.y = 0
-            self.rect.y = SCREEN_HEIGHT - self.rect.height
-"""
+        if self.rect.y + self.rect.height >= 332 and self.change_y >= 0:
+            self.change_y = 0
+            self.rect.y = 332 - self.rect.height
+
