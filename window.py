@@ -9,7 +9,9 @@ def main():
     e.init_pygame()
 
     b = Background2(0, 0, 0)
-    p = Player(2, 350, 332)
+    p = Player(2, 350, 364)
+    p.rect.x = 350
+    p.rect.y = 364
 
     e.drawables.add(b)
     e.drawables.add(p)

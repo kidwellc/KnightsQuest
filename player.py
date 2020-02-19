@@ -11,8 +11,8 @@ class Player(Character):
         self.y = y
         self.change_x = 0
         self.change_y = 0
-        self.image = pygame.image.load('./assets/porcupine.png').convert_alpha()
-        self.image = pygame.transform.scale(self.image, (32, 32))
+        self.image = pygame.image.load('./assets/knight/knight-blue-IDLE-00.png').convert_alpha()
+        self.image = pygame.transform.scale(self.image, (64, 64))
         self.rect = self.image.get_rect()
         self.world_size = (Settings.width, Settings.height)
 
@@ -41,8 +41,8 @@ class Player(Character):
             pass
 
     def jump(self, time):
-        if self.rect.y + self.rect.height >= 332:
-            self.change_y = -5
+        if self.rect.y + self.rect.height >= 364:
+            self.change_y = -10
 
     def update(self, time):
         self.gravity_calc()
@@ -51,11 +51,11 @@ class Player(Character):
 
     def gravity_calc(self):
         if self.change_y == 0:
-            self.change_y = 1
+            self.change_y = 10
         else:
-            self.change_y += .35
+            self.change_y += 1.0
             
-        if self.rect.y + self.rect.height >= 332 and self.change_y >= 0:
+        if self.rect.y + self.rect.height >= 364 and self.change_y >= 0:
             self.change_y = 0
-            self.rect.y = 332 - self.rect.height
+            self.rect.y = 364 - self.rect.height
 
