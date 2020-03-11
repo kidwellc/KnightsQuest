@@ -2,14 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df7320a7-5385-41e6-8d3c-a027684869a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/knight/knight-blue-IDLE-04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/knight/knight-blue-JUMP-00.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-RUN-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/knight/knight-blue-RUN-010.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-RUN-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/knight/knight-blue-RUN-011.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/league/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/league/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-ATTACK-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-ATTACK-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-ATTACK-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-ATTACK-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-ATTACK-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-ATTACK-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-ATTACK-06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-ATTACK-07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-ATTACK-08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-IDLE-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-IDLE-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-IDLE-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-IDLE-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-IDLE-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-JUMP-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-JUMP-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-JUMP-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-JUMP-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-JUMP-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-JUMP-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-JUMP-06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-JUMP-07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-JUMP-08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-JUMP-09.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/window.py" beforeDir="false" afterPath="$PROJECT_DIR$/window.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +63,7 @@
       <recent name="C:\Users\crk\Google Drive\CIS380\KnightsQuest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.game">
+  <component name="RunManager" selected="Python.window">
     <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KnightsQuest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,8 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.game" />
         <item itemvalue="Python.window" />
+        <item itemvalue="Python.game" />
       </list>
     </recent_temporary>
   </component>
@@ -132,22 +150,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="562" y="180" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1581315794049" />
-    <state width="1348" height="162" key="GridCell.Tab.0.bottom" timestamp="1583929722437">
+    <state width="1347" height="145" key="GridCell.Tab.0.bottom" timestamp="1583949652493">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1348" height="162" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583929722437" />
-    <state width="1348" height="162" key="GridCell.Tab.0.center" timestamp="1583929722437">
+    <state width="1347" height="145" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583949652493" />
+    <state width="1347" height="145" key="GridCell.Tab.0.center" timestamp="1583949652493">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1348" height="162" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583929722437" />
-    <state width="1348" height="162" key="GridCell.Tab.0.left" timestamp="1583929722436">
+    <state width="1347" height="145" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583949652493" />
+    <state width="1347" height="145" key="GridCell.Tab.0.left" timestamp="1583949652493">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1348" height="162" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583929722436" />
-    <state width="1348" height="162" key="GridCell.Tab.0.right" timestamp="1583929722437">
+    <state width="1347" height="145" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583949652493" />
+    <state width="1347" height="145" key="GridCell.Tab.0.right" timestamp="1583949652493">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1348" height="162" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583929722437" />
+    <state width="1347" height="145" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583949652493" />
     <state width="1364" height="142" key="GridCell.Tab.1.bottom" timestamp="1582100014800">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -168,10 +186,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="290" y="68" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1583822417392" />
-    <state x="477" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1583816785330">
+    <state x="477" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1583948736226">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="477" y="250" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1583816785330" />
+    <state x="477" y="250" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1583948736226" />
     <state x="594" y="372" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583819311304">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

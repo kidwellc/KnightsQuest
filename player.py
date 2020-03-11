@@ -10,10 +10,10 @@ class Player(Character):
         self.direction = settings.Direction.RIGHT
         self.state = State.IDLE
         self.state_time = pygame.time.get_ticks()
-        self.images[State.IDLE] = self.load_images("./assets/knight/knight-blue-IDLE-0")
-        self.images[State.ATTACK] = self.load_images("./assets/knight/knight-blue-ATTACK-0")
-        self.images[State.JUMP] = self.load_images("./assets/knight/knight-blue-JUMP-0")
-        self.images[State.RUN] = self.load_images("./assets/knight/knight-blue-RUN-0")
+        self.images[State.IDLE] = self.load_images_idle("./assets/knight/knight-blue-IDLE-00")
+        self.images[State.ATTACK] = self.load_images_attack("./assets/knight/knight-blue-ATTACK-00")
+        self.images[State.JUMP] = self.load_images_jump("./assets/knight/knight-blue-JUMP-00")
+        self.images[State.RUN] = self.load_images_run("./assets/knight/knight-blue-RUN-0")
         self.image = self.images[State.IDLE][settings.Direction.RIGHT][0]
         self.frame = 0
         self.health = 100
@@ -95,11 +95,58 @@ class Player(Character):
         self.direction = direction
         self.step_count = 0
 
-    def load_images(self, path):
+    def load_images_idle(self, path):
         images = {}
         right = {}
         left = {}
-        for i in range(0, 3):
+        for i in range(0, 4):
+            p = path + str(i) + ".png"
+            # print("Loading " + p)
+            temp = pygame.image.load(p).convert_alpha()
+            # temp = pygame.transform.scale(temp, (Settings.tile_size, Settings.tile_size))
+            temp = pygame.transform.scale(temp, (Settings.tile_size * 2, Settings.tile_size * 2))
+            right[i] = temp
+            left[i] = pygame.transform.flip(temp, True, False)
+        images[settings.Direction.RIGHT] = right
+        images[settings.Direction.LEFT] = left
+        return images
+
+    def load_images_attack(self, path):
+        images = {}
+        right = {}
+        left = {}
+        for i in range(0, 8):
+            p = path + str(i) + ".png"
+            # print("Loading " + p)
+            temp = pygame.image.load(p).convert_alpha()
+            # temp = pygame.transform.scale(temp, (Settings.tile_size, Settings.tile_size))
+            temp = pygame.transform.scale(temp, (Settings.tile_size * 2, Settings.tile_size * 2))
+            right[i] = temp
+            left[i] = pygame.transform.flip(temp, True, False)
+        images[settings.Direction.RIGHT] = right
+        images[settings.Direction.LEFT] = left
+        return images
+
+    def load_images_jump(self, path):
+        images = {}
+        right = {}
+        left = {}
+        for i in range(0, 9):
+            p = path + str(i) + ".png"
+            # print("Loading " + p)
+            temp = pygame.image.load(p).convert_alpha()
+            # temp = pygame.transform.scale(temp, (Settings.tile_size, Settings.tile_size))
+            temp = pygame.transform.scale(temp, (Settings.tile_size * 2, Settings.tile_size * 2))
+            right[i] = temp
+            left[i] = pygame.transform.flip(temp, True, False)
+        images[settings.Direction.RIGHT] = right
+        images[settings.Direction.LEFT] = left
+        return images
+    def load_images_run(self, path):
+        images = {}
+        right = {}
+        left = {}
+        for i in range(0, 12):
             p = path + str(i) + ".png"
             # print("Loading " + p)
             temp = pygame.image.load(p).convert_alpha()
