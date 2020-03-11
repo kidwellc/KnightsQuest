@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df7320a7-5385-41e6-8d3c-a027684869a0" name="Default Changelist" comment="" />
+    <list default="true" id="df7320a7-5385-41e6-8d3c-a027684869a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/knight/knight-blue-IDLE-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/knight/knight-blue-JUMP-00.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-RUN-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/knight/knight-blue-RUN-010.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/knight/knight-blue-RUN-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/knight/knight-blue-RUN-011.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/league/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/league/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/window.py" beforeDir="false" afterPath="$PROJECT_DIR$/window.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,15 +36,37 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/knight" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\crk\Google Drive\CIS380\KnightsQuest\assets\knight" />
       <recent name="C:\Users\crk\Google Drive\CIS380\KnightsQuest" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.game">
+    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KnightsQuest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="window" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KnightsQuest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.game" />
         <item itemvalue="Python.window" />
       </list>
     </recent_temporary>
@@ -81,6 +120,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#Images/0.0.1536.864@0.0.1536.864" timestamp="1581934483138" />
+    <state x="56" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583818875654">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="56" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1583818875654" />
     <state x="496" y="47" key="#window" timestamp="1581315968489">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -89,22 +132,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="562" y="180" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1581315794049" />
-    <state width="1359" height="274" key="GridCell.Tab.0.bottom" timestamp="1582144125813">
+    <state width="1348" height="162" key="GridCell.Tab.0.bottom" timestamp="1583929722437">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1359" height="274" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582144125813" />
-    <state width="1359" height="274" key="GridCell.Tab.0.center" timestamp="1582144125813">
+    <state width="1348" height="162" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583929722437" />
+    <state width="1348" height="162" key="GridCell.Tab.0.center" timestamp="1583929722437">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1359" height="274" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582144125813" />
-    <state width="1359" height="274" key="GridCell.Tab.0.left" timestamp="1582144125813">
+    <state width="1348" height="162" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583929722437" />
+    <state width="1348" height="162" key="GridCell.Tab.0.left" timestamp="1583929722436">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1359" height="274" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582144125813" />
-    <state width="1359" height="274" key="GridCell.Tab.0.right" timestamp="1582144125813">
+    <state width="1348" height="162" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583929722436" />
+    <state width="1348" height="162" key="GridCell.Tab.0.right" timestamp="1583929722437">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1359" height="274" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582144125813" />
+    <state width="1348" height="162" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583929722437" />
     <state width="1364" height="142" key="GridCell.Tab.1.bottom" timestamp="1582100014800">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -121,13 +164,21 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1364" height="142" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1582100014800" />
-    <state x="290" y="68" key="SettingsEditor" timestamp="1581316018569">
+    <state x="290" y="68" key="SettingsEditor" timestamp="1583822417392">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="290" y="68" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1581316018569" />
-    <state x="477" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1582142706030">
+    <state x="290" y="68" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1583822417392" />
+    <state x="477" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1583816785330">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="477" y="250" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1582142706030" />
+    <state x="477" y="250" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1583816785330" />
+    <state x="594" y="372" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583819311304">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="594" y="372" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1583819311304" />
+    <state x="501" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1582550150565">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="501" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1582550150565" />
   </component>
 </project>

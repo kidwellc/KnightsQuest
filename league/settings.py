@@ -34,15 +34,15 @@ class State(IntEnum):
     """State enumerates character states for readability.  Common states
     are predefined, add your own as needed."""
     IDLE = 0
-    MOVE = 1
+    RUN = 1
     ATTACK = 2
-    PROJECT = 3
+    JUMP = 3
     
 from enum import IntEnum
 class Direction(IntEnum):
     """Direction enumerates character directions for readability.  Cardinal
     directions are predefined, add your own as needed."""
-    NORTH = 0
-    SOUTH = 1
-    EAST = 2
-    WEST = 3
+    UP = 0
+    DOWN = 1
+    RIGHT = 2
+    LEFT = 3
